@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "WhatsApp Web Shortcut",
+    "description": "Open WhatsApp Web with a keyboard shortcut.",
+    "version": "1.0",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "commands": {
+      "open-whatsapp": {
+        "suggested_key": {
+          "default": "Shift+Alt+W"
+        },
+        "description": "Open WhatsApp Web"
+      }
+    },
+    "icons": {
+      "128": "icon.png"
+    }
+  }
+  
